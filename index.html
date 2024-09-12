@@ -13,6 +13,21 @@
       color: #333;
       border-bottom: 2px solid #ddd;
       padding-bottom: 5px;
+      display: flex;
+      align-items: center;
+    }
+    h1 .emoji {
+      font-size: 1.5em;
+      margin-right: 10px;
+    }
+    h2 {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+    }
+    h2 .emoji {
+      font-size: 1.2em;
+      margin-right: 5px;
     }
     ul {
       margin: 0;
@@ -38,22 +53,15 @@
       border: 1px solid #ddd;
       border-radius: 5px;
     }
-    .section h2 {
-      margin-top: 0;
-    }
-    .emoji {
-      font-size: 1.2em;
-      margin-right: 5px;
-    }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>Dicas e Atalhos</h1>
+    <h1><span class="emoji">💡</span>Dicas e Atalhos</h1>
 
     <div class="section">
-      <h2>VScode</h2>
+      <h2><span class="emoji">💻</span>VScode</h2>
       <ul>
         <li><span class="emoji">🖥️</span><code>CTRL + SHIFT + P</code> - Abre a Paleta de Comandos.</li>
         <li><span class="emoji">🔍</span><code>CTRL + P</code> - Navegar para arquivos rapidamente.</li>
@@ -63,7 +71,7 @@
     </div>
 
     <div class="section">
-      <h2>IntelliJ IDEA</h2>
+      <h2><span class="emoji">⚙️</span>IntelliJ IDEA</h2>
       <ul>
         <li><span class="emoji">🔄</span><code>CTRL + ALT + L</code> - Formata o código fonte.</li>
         <li><span class="emoji">🔧</span><code>sout</code> - Expande para <code>System.out.println</code>.</li>
@@ -73,7 +81,7 @@
     </div>
 
     <div class="section">
-      <h2>Docker</h2>
+      <h2><span class="emoji">🐳</span>Docker</h2>
       <ul>
         <li><span class="emoji">📋</span><code>docker ps</code> - Mostra todos os contêineres em execução.</li>
         <li><span class="emoji">📦</span><code>docker images</code> - Lista todas as imagens disponíveis no sistema.</li>
@@ -81,7 +89,7 @@
     </div>
 
     <div class="section">
-      <h2>TypeScript</h2>
+      <h2><span class="emoji">🔤</span>TypeScript</h2>
       <ul>
         <li><span class="emoji">🛠️</span><code>tsc -w</code> - Compila automaticamente o código TS.</li>
         <li><span class="emoji">📁</span><code>tsc --init</code> - Cria um arquivo TS dentro do projeto.</li>
