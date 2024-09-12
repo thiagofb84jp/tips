@@ -20,7 +20,9 @@
       list-style-type: none;
     }
     li {
-      margin: 5px 0;
+      margin: 10px 0;
+      padding: 5px;
+      border-bottom: 1px solid #ddd;
     }
     code {
       background-color: #f4f4f4;
@@ -39,34 +41,42 @@
     .section h2 {
       margin-top: 0;
     }
+    .emoji {
+      font-size: 1.2em;
+      margin-right: 5px;
+    }
   </style>
 </head>
 <body>
 
   <div class="container">
     <h1>Dicas e Atalhos</h1>
+
     <div class="section">
       <h2>VScode</h2>
       <ul>
-        <!-- Adicione os atalhos do VScode aqui -->
+        <li><span class="emoji">🖥️</span><code>CTRL + SHIFT + P</code> - Abre a Paleta de Comandos.</li>
+        <li><span class="emoji">🔍</span><code>CTRL + P</code> - Navegar para arquivos rapidamente.</li>
+        <li><span class="emoji">🛠️</span><code>CTRL + SHIFT + F</code> - Buscar em todos os arquivos.</li>
+        <li><span class="emoji">🎨</span><code>ALT + SHIFT + F</code> - Formatar o código.</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>IntelliJ IDEA</h2>
       <ul>
-        <li><code>CTRL + ALT + L</code> - Formata o código fonte.</li>
-        <li><code>sout</code> - Expande para <code>System.out.println</code>.</li>
-        <li><code>ALT + RETURN</code> e <code>CTRL + RETURN</code> - Exibe sugestões e ações rápidas.</li>
-        <li><code>CTRL + SHIFT + R</code> - Executa o programa.</li>
+        <li><span class="emoji">🔄</span><code>CTRL + ALT + L</code> - Formata o código fonte.</li>
+        <li><span class="emoji">🔧</span><code>sout</code> - Expande para <code>System.out.println</code>.</li>
+        <li><span class="emoji">💡</span><code>ALT + RETURN</code> e <code>CTRL + RETURN</code> - Exibe sugestões e ações rápidas.</li>
+        <li><span class="emoji">▶️</span><code>CTRL + SHIFT + R</code> - Executa o programa.</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Docker</h2>
       <ul>
-        <li><code>docker ps</code> - Mostra todos os contêineres em execução.</li>
-        <li><code>docker images</code> - Lista todas as imagens disponíveis no sistema.</li>
+        <li><span class="emoji">📋</span><code>docker ps</code> - Mostra todos os contêineres em execução.</li>
+        <li><span class="emoji">📦</span><code>docker images</code> - Lista todas as imagens disponíveis no sistema.</li>
       </ul>
     </div>
   </div>
